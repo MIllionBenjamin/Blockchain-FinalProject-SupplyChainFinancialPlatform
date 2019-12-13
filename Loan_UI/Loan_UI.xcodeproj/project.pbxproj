@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187FB76C23A2B68000E0675F /* CompanyResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FB76B23A2B68000E0675F /* CompanyResultViewController.m */; };
+		187FB77023A2C51000E0675F /* SearchReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FB76F23A2C51000E0675F /* SearchReceiptViewController.m */; };
+		187FB77423A2C9C600E0675F /* ReceiptResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FB77323A2C9C600E0675F /* ReceiptResultViewController.m */; };
+		187FB77723A2CA4B00E0675F /* ReceiptResultCollectiionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FB77623A2CA4B00E0675F /* ReceiptResultCollectiionViewCell.m */; };
+		187FB77B23A2ECCC00E0675F /* NoResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FB77A23A2ECCC00E0675F /* NoResultViewController.m */; };
+		187FB77F23A2F0E800E0675F /* SearchCreditAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FB77E23A2F0E800E0675F /* SearchCreditAssetViewController.m */; };
+		187FB78323A2F27000E0675F /* CreditAssetResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187FB78223A2F27000E0675F /* CreditAssetResultViewController.m */; };
+		18F1414223A290FC000587DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1414123A290FC000587DC /* AppDelegate.m */; };
+		18F1414823A290FC000587DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1414723A290FC000587DC /* ViewController.m */; };
+		18F1414D23A29100000587DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F1414C23A29100000587DC /* Assets.xcassets */; };
+		18F1415323A29100000587DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1415223A29100000587DC /* main.m */; };
+		18F1415D23A29100000587DC /* Loan_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1415C23A29100000587DC /* Loan_UITests.m */; };
+		18F1416823A29100000587DC /* Loan_UIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1416723A29100000587DC /* Loan_UIUITests.m */; };
+		18F1417823A294C3000587DC /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1417723A294C3000587DC /* InitialViewController.m */; };
+		18F1417B23A29534000587DC /* OperationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1417A23A29534000587DC /* OperationCollectionViewCell.m */; };
+		18F1417F23A29CDB000587DC /* SearchCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1417E23A29CDB000587DC /* SearchCompanyViewController.m */; };
+		72667406A755BF2AE8CA49BB /* libPods-Loan_UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DC54D3CC323198E4FEA4A3 /* libPods-Loan_UI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F1415923A29100000587DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F1413523A290FC000587DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F1413C23A290FC000587DC;
+			remoteInfo = Loan_UI;
+		};
+		18F1416423A29100000587DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F1413523A290FC000587DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F1413C23A290FC000587DC;
+			remoteInfo = Loan_UI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F578CA2AD4F58A8EFAD95A /* Pods-Loan_UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan_UI.debug.xcconfig"; path = "Target Support Files/Pods-Loan_UI/Pods-Loan_UI.debug.xcconfig"; sourceTree = "<group>"; };
+		187FB76A23A2B68000E0675F /* CompanyResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyResultViewController.h; sourceTree = "<group>"; };
+		187FB76B23A2B68000E0675F /* CompanyResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyResultViewController.m; sourceTree = "<group>"; };
+		187FB76E23A2C51000E0675F /* SearchReceiptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchReceiptViewController.h; sourceTree = "<group>"; };
+		187FB76F23A2C51000E0675F /* SearchReceiptViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchReceiptViewController.m; sourceTree = "<group>"; };
+		187FB77223A2C9C600E0675F /* ReceiptResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiptResultViewController.h; sourceTree = "<group>"; };
+		187FB77323A2C9C600E0675F /* ReceiptResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiptResultViewController.m; sourceTree = "<group>"; };
+		187FB77523A2CA4B00E0675F /* ReceiptResultCollectiionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiptResultCollectiionViewCell.h; sourceTree = "<group>"; };
+		187FB77623A2CA4B00E0675F /* ReceiptResultCollectiionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiptResultCollectiionViewCell.m; sourceTree = "<group>"; };
+		187FB77923A2ECCC00E0675F /* NoResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoResultViewController.h; sourceTree = "<group>"; };
+		187FB77A23A2ECCC00E0675F /* NoResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoResultViewController.m; sourceTree = "<group>"; };
+		187FB77D23A2F0E800E0675F /* SearchCreditAssetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchCreditAssetViewController.h; sourceTree = "<group>"; };
+		187FB77E23A2F0E800E0675F /* SearchCreditAssetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchCreditAssetViewController.m; sourceTree = "<group>"; };
+		187FB78123A2F27000E0675F /* CreditAssetResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditAssetResultViewController.h; sourceTree = "<group>"; };
+		187FB78223A2F27000E0675F /* CreditAssetResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditAssetResultViewController.m; sourceTree = "<group>"; };
+		18F1413D23A290FC000587DC /* Loan_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loan_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1414023A290FC000587DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F1414123A290FC000587DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F1414623A290FC000587DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F1414723A290FC000587DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F1414C23A29100000587DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F1415123A29100000587DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1415223A29100000587DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F1415823A29100000587DC /* Loan_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Loan_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1415C23A29100000587DC /* Loan_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loan_UITests.m; sourceTree = "<group>"; };
+		18F1415E23A29100000587DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1416323A29100000587DC /* Loan_UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Loan_UIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1416723A29100000587DC /* Loan_UIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loan_UIUITests.m; sourceTree = "<group>"; };
+		18F1416923A29100000587DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1417623A294C3000587DC /* InitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		18F1417723A294C3000587DC /* InitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		18F1417923A29534000587DC /* OperationCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationCollectionViewCell.h; sourceTree = "<group>"; };
+		18F1417A23A29534000587DC /* OperationCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationCollectionViewCell.m; sourceTree = "<group>"; };
+		18F1417D23A29CDB000587DC /* SearchCompanyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchCompanyViewController.h; sourceTree = "<group>"; };
+		18F1417E23A29CDB000587DC /* SearchCompanyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchCompanyViewController.m; sourceTree = "<group>"; };
+		33DC54D3CC323198E4FEA4A3 /* libPods-Loan_UI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Loan_UI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828CEEA9147767E28DFE4E2B /* Pods-Loan_UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loan_UI.release.xcconfig"; path = "Target Support Files/Pods-Loan_UI/Pods-Loan_UI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F1413A23A290FC000587DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72667406A755BF2AE8CA49BB /* libPods-Loan_UI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1415523A29100000587DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1416023A29100000587DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187FB76923A2B5F800E0675F /* CompanyResultPage */ = {
+			isa = PBXGroup;
+			children = (
+				187FB76A23A2B68000E0675F /* CompanyResultViewController.h */,
+				187FB76B23A2B68000E0675F /* CompanyResultViewController.m */,
+			);
+			path = CompanyResultPage;
+			sourceTree = "<group>";
+		};
+		187FB76D23A2C4DD00E0675F /* SearchReceiptPage */ = {
+			isa = PBXGroup;
+			children = (
+				187FB76E23A2C51000E0675F /* SearchReceiptViewController.h */,
+				187FB76F23A2C51000E0675F /* SearchReceiptViewController.m */,
+			);
+			path = SearchReceiptPage;
+			sourceTree = "<group>";
+		};
+		187FB77123A2C99300E0675F /* ReceiptResultPage */ = {
+			isa = PBXGroup;
+			children = (
+				187FB77223A2C9C600E0675F /* ReceiptResultViewController.h */,
+				187FB77323A2C9C600E0675F /* ReceiptResultViewController.m */,
+				187FB77523A2CA4B00E0675F /* ReceiptResultCollectiionViewCell.h */,
+				187FB77623A2CA4B00E0675F /* ReceiptResultCollectiionViewCell.m */,
+			);
+			path = ReceiptResultPage;
+			sourceTree = "<group>";
+		};
+		187FB77823A2EC7900E0675F /* NoResultPage */ = {
+			isa = PBXGroup;
+			children = (
+				187FB77923A2ECCC00E0675F /* NoResultViewController.h */,
+				187FB77A23A2ECCC00E0675F /* NoResultViewController.m */,
+			);
+			path = NoResultPage;
+			sourceTree = "<group>";
+		};
+		187FB77C23A2F0A600E0675F /* SearchCreditAssetPage */ = {
+			isa = PBXGroup;
+			children = (
+				187FB77D23A2F0E800E0675F /* SearchCreditAssetViewController.h */,
+				187FB77E23A2F0E800E0675F /* SearchCreditAssetViewController.m */,
+			);
+			path = SearchCreditAssetPage;
+			sourceTree = "<group>";
+		};
+		187FB78023A2F25200E0675F /* CreditAssetResultPage */ = {
+			isa = PBXGroup;
+			children = (
+				187FB78123A2F27000E0675F /* CreditAssetResultViewController.h */,
+				187FB78223A2F27000E0675F /* CreditAssetResultViewController.m */,
+			);
+			path = CreditAssetResultPage;
+			sourceTree = "<group>";
+		};
+		18F1413423A290FC000587DC = {
+			isa = PBXGroup;
+			children = (
+				18F1413F23A290FC000587DC /* Loan_UI */,
+				18F1415B23A29100000587DC /* Loan_UITests */,
+				18F1416623A29100000587DC /* Loan_UIUITests */,
+				18F1413E23A290FC000587DC /* Products */,
+				70A2A09E71BEAC1EB8F98550 /* Pods */,
+				E217A7FFC38C5CA6CD81C58E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18F1413E23A290FC000587DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F1413D23A290FC000587DC /* Loan_UI.app */,
+				18F1415823A29100000587DC /* Loan_UITests.xctest */,
+				18F1416323A29100000587DC /* Loan_UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F1413F23A290FC000587DC /* Loan_UI */ = {
+			isa = PBXGroup;
+			children = (
+				187FB78023A2F25200E0675F /* CreditAssetResultPage */,
+				187FB77C23A2F0A600E0675F /* SearchCreditAssetPage */,
+				187FB77823A2EC7900E0675F /* NoResultPage */,
+				187FB77123A2C99300E0675F /* ReceiptResultPage */,
+				187FB76D23A2C4DD00E0675F /* SearchReceiptPage */,
+				187FB76923A2B5F800E0675F /* CompanyResultPage */,
+				18F1417C23A29CAA000587DC /* SearchCompanyPage */,
+				18F1417523A29497000587DC /* InitialPage */,
+				18F1414023A290FC000587DC /* AppDelegate.h */,
+				18F1414123A290FC000587DC /* AppDelegate.m */,
+				18F1414623A290FC000587DC /* ViewController.h */,
+				18F1414723A290FC000587DC /* ViewController.m */,
+				18F1414C23A29100000587DC /* Assets.xcassets */,
+				18F1415123A29100000587DC /* Info.plist */,
+				18F1415223A29100000587DC /* main.m */,
+			);
+			path = Loan_UI;
+			sourceTree = "<group>";
+		};
+		18F1415B23A29100000587DC /* Loan_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F1415C23A29100000587DC /* Loan_UITests.m */,
+				18F1415E23A29100000587DC /* Info.plist */,
+			);
+			path = Loan_UITests;
+			sourceTree = "<group>";
+		};
+		18F1416623A29100000587DC /* Loan_UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F1416723A29100000587DC /* Loan_UIUITests.m */,
+				18F1416923A29100000587DC /* Info.plist */,
+			);
+			path = Loan_UIUITests;
+			sourceTree = "<group>";
+		};
+		18F1417523A29497000587DC /* InitialPage */ = {
+			isa = PBXGroup;
+			children = (
+				18F1417623A294C3000587DC /* InitialViewController.h */,
+				18F1417723A294C3000587DC /* InitialViewController.m */,
+				18F1417923A29534000587DC /* OperationCollectionViewCell.h */,
+				18F1417A23A29534000587DC /* OperationCollectionViewCell.m */,
+			);
+			path = InitialPage;
+			sourceTree = "<group>";
+		};
+		18F1417C23A29CAA000587DC /* SearchCompanyPage */ = {
+			isa = PBXGroup;
+			children = (
+				18F1417D23A29CDB000587DC /* SearchCompanyViewController.h */,
+				18F1417E23A29CDB000587DC /* SearchCompanyViewController.m */,
+			);
+			path = SearchCompanyPage;
+			sourceTree = "<group>";
+		};
+		70A2A09E71BEAC1EB8F98550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09F578CA2AD4F58A8EFAD95A /* Pods-Loan_UI.debug.xcconfig */,
+				828CEEA9147767E28DFE4E2B /* Pods-Loan_UI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E217A7FFC38C5CA6CD81C58E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33DC54D3CC323198E4FEA4A3 /* libPods-Loan_UI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F1413C23A290FC000587DC /* Loan_UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1416C23A29100000587DC /* Build configuration list for PBXNativeTarget "Loan_UI" */;
+			buildPhases = (
+				2D84705E31615B1AFF645057 /* [CP] Check Pods Manifest.lock */,
+				18F1413923A290FC000587DC /* Sources */,
+				18F1413A23A290FC000587DC /* Frameworks */,
+				18F1413B23A290FC000587DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loan_UI;
+			productName = Loan_UI;
+			productReference = 18F1413D23A290FC000587DC /* Loan_UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F1415723A29100000587DC /* Loan_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1416F23A29100000587DC /* Build configuration list for PBXNativeTarget "Loan_UITests" */;
+			buildPhases = (
+				18F1415423A29100000587DC /* Sources */,
+				18F1415523A29100000587DC /* Frameworks */,
+				18F1415623A29100000587DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F1415A23A29100000587DC /* PBXTargetDependency */,
+			);
+			name = Loan_UITests;
+			productName = Loan_UITests;
+			productReference = 18F1415823A29100000587DC /* Loan_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F1416223A29100000587DC /* Loan_UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1417223A29100000587DC /* Build configuration list for PBXNativeTarget "Loan_UIUITests" */;
+			buildPhases = (
+				18F1415F23A29100000587DC /* Sources */,
+				18F1416023A29100000587DC /* Frameworks */,
+				18F1416123A29100000587DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F1416523A29100000587DC /* PBXTargetDependency */,
+			);
+			name = Loan_UIUITests;
+			productName = Loan_UIUITests;
+			productReference = 18F1416323A29100000587DC /* Loan_UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F1413523A290FC000587DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "中山大学";
+				TargetAttributes = {
+					18F1413C23A290FC000587DC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					18F1415723A29100000587DC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 18F1413C23A290FC000587DC;
+					};
+					18F1416223A29100000587DC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 18F1413C23A290FC000587DC;
+					};
+				};
+			};
+			buildConfigurationList = 18F1413823A290FC000587DC /* Build configuration list for PBXProject "Loan_UI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F1413423A290FC000587DC;
+			productRefGroup = 18F1413E23A290FC000587DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F1413C23A290FC000587DC /* Loan_UI */,
+				18F1415723A29100000587DC /* Loan_UITests */,
+				18F1416223A29100000587DC /* Loan_UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F1413B23A290FC000587DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1414D23A29100000587DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1415623A29100000587DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1416123A29100000587DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D84705E31615B1AFF645057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Loan_UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F1413923A290FC000587DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187FB77B23A2ECCC00E0675F /* NoResultViewController.m in Sources */,
+				187FB77023A2C51000E0675F /* SearchReceiptViewController.m in Sources */,
+				18F1417823A294C3000587DC /* InitialViewController.m in Sources */,
+				18F1417B23A29534000587DC /* OperationCollectionViewCell.m in Sources */,
+				187FB77723A2CA4B00E0675F /* ReceiptResultCollectiionViewCell.m in Sources */,
+				18F1414823A290FC000587DC /* ViewController.m in Sources */,
+				187FB76C23A2B68000E0675F /* CompanyResultViewController.m in Sources */,
+				187FB77423A2C9C600E0675F /* ReceiptResultViewController.m in Sources */,
+				18F1417F23A29CDB000587DC /* SearchCompanyViewController.m in Sources */,
+				187FB77F23A2F0E800E0675F /* SearchCreditAssetViewController.m in Sources */,
+				18F1414223A290FC000587DC /* AppDelegate.m in Sources */,
+				187FB78323A2F27000E0675F /* CreditAssetResultViewController.m in Sources */,
+				18F1415323A29100000587DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1415423A29100000587DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1415D23A29100000587DC /* Loan_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1415F23A29100000587DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1416823A29100000587DC /* Loan_UIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F1415A23A29100000587DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F1413C23A290FC000587DC /* Loan_UI */;
+			targetProxy = 18F1415923A29100000587DC /* PBXContainerItemProxy */;
+		};
+		18F1416523A29100000587DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F1413C23A290FC000587DC /* Loan_UI */;
+			targetProxy = 18F1416423A29100000587DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18F1416A23A29100000587DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F1416B23A29100000587DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F1416D23A29100000587DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F578CA2AD4F58A8EFAD95A /* Pods-Loan_UI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LHP8S7RT;
+				INFOPLIST_FILE = Loan_UI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7343107.Loan-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F1416E23A29100000587DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828CEEA9147767E28DFE4E2B /* Pods-Loan_UI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LHP8S7RT;
+				INFOPLIST_FILE = Loan_UI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7343107.Loan-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F1417023A29100000587DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LHP8S7RT;
+				INFOPLIST_FILE = Loan_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7343107.Loan-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loan_UI.app/Loan_UI";
+			};
+			name = Debug;
+		};
+		18F1417123A29100000587DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LHP8S7RT;
+				INFOPLIST_FILE = Loan_UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7343107.Loan-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loan_UI.app/Loan_UI";
+			};
+			name = Release;
+		};
+		18F1417323A29100000587DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LHP8S7RT;
+				INFOPLIST_FILE = Loan_UIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7343107.Loan-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Loan_UI;
+			};
+			name = Debug;
+		};
+		18F1417423A29100000587DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5LHP8S7RT;
+				INFOPLIST_FILE = Loan_UIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-7343107.Loan-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Loan_UI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F1413823A290FC000587DC /* Build configuration list for PBXProject "Loan_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1416A23A29100000587DC /* Debug */,
+				18F1416B23A29100000587DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F1416C23A29100000587DC /* Build configuration list for PBXNativeTarget "Loan_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1416D23A29100000587DC /* Debug */,
+				18F1416E23A29100000587DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F1416F23A29100000587DC /* Build configuration list for PBXNativeTarget "Loan_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1417023A29100000587DC /* Debug */,
+				18F1417123A29100000587DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F1417223A29100000587DC /* Build configuration list for PBXNativeTarget "Loan_UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1417323A29100000587DC /* Debug */,
+				18F1417423A29100000587DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F1413523A290FC000587DC /* Project object */;
+}

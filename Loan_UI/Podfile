@@ -1,0 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Loan_UI' do
+	pod 'Masonry'
+	pod 'AFNetworking'
+end
