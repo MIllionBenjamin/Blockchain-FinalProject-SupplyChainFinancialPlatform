@@ -74,3 +74,22 @@ GET: {IP}:8383/get_AmountOfCreditAsset_bank_GiveTo_TrustedCompany/?bName=bank_1&
 <br>
 Demo见本目录下的.mp4视频。
 
+## English Introduction
+
+Consider the following scenario:
+
+There are three companies A, B and C. 
+Company A has a large scale, good credit, great risk-bearing capacity, and is qualified to directly obtain large amounts of financing from banks and other financial institutions.
+
+Companies B and C are small and cannot obtain large amount of money directly from any financial institutions.
+
+Now Company A orders a batch of goods from company B. Company B needs to order supplementary materials from company C to produce this batch of goods.
+
+Company A is currently short of funds. A document signed by company A is sent to company B, promising to pay company B for the goods. At this time, company B can use this document to get a loan from the bank, With the credit of company A. 
+
+And company B can sign a document to company C in the same way. Company C can get a loan from the bank through the document.
+
+Under the traditional method, such a process requires a very complicated authorization and verification process.
+
+This project uses blockchain technology to efficiently implement such a credit transfer process and realize a blockchain-based supply chain financial platform.
+
