@@ -77,6 +77,8 @@ Demo见本目录下的.mp4视频。
 
 ## English Introduction
 
+An independent work. Finish the whole platform including the front end, the back end and the chain end. Use the consortium blockchain platform [FISCO-BCOS](https://github.com/FISCO-BCOS/FISCO-BCOS) maintained by Tencent.
+
 Consider the following scenario:
 
 There are three companies A, B and C. 
